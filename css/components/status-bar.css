@@ -1,0 +1,50 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 9px 3px;
+  width: 100%;
+  background-color: #46484d;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 0;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child span i {
+  margin-right: 7px;
+}
+
+.status-bar__column:first-child span i:first-child {
+  color: #fc5b57;
+}
+
+.status-bar__column:first-child span i:nth-child(2) {
+  color: #e5bf3c;
+}
+
+.status-bar__column:first-child span i:last-child {
+  color: #57c038;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fc5b57;
+}
+
+.status-bar__column .fa-battery-quarter {
+  margin: 0px 5px;
+}
+
+.status-bar__column .fa-bolt {
+  color: #57c038;
+}

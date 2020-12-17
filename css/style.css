@@ -1,0 +1,27 @@
+/*reset*/
+@import "reset.css";
+/*font*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+
+/*screen*/
+@import "screen/login.css";
+@import "screen/friends.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #dededf;
+  background-color: #36373d;
+  height: 1000vh;
+}
+
+.main-screen {
+  margin: 0 25px;
+  margin-top: 20px;
+}
