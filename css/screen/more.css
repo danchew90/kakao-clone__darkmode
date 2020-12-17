@@ -1,0 +1,65 @@
+.apple-pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #68c6f1a8;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.apple-money {
+  display: flex;
+  align-items: center;
+}
+
+.apple-money i {
+  margin-right: 5px;
+}
+
+.apple-money span {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.apple-pay__icon {
+  display: flex;
+  align-items: center;
+}
+
+.divider-apple {
+  width: 2px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.794);
+  margin: 0 15px;
+  opacity: 0.7;
+}
+
+.more-suggestions {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #dededf;
+  padding-top: 30px;
+}
+
+.more-suggestions__tittle {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.more-suggestions__icon-img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,4 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: space-between;
+}
