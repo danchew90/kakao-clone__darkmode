@@ -49,7 +49,6 @@
 }
 
 .user-components__column:last-child {
-  opacity: 0.7;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

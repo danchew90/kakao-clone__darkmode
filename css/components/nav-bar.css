@@ -16,3 +16,9 @@
 .nav__link {
   position: relative;
 }
+
+.nav__notification {
+  position: absolute;
+  bottom: 30px;
+  right: -15px;
+}
